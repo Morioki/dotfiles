@@ -1,0 +1,7 @@
+# Ignore everything by default
+*
+
+# Git Info
+!.gitconfig
+!.gitignore
+!.gitexcludes
