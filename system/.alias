@@ -1,0 +1,6 @@
+# QWE Utility
+alias qwe=". qwe.sh"
+
+# General
+alias la='ls -lisA'
+alias tgz='tar -xvfz'

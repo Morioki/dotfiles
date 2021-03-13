@@ -5,3 +5,14 @@
 !.gitconfig
 !.gitignore
 !.gitexcludes
+
+!theme
+!theme/mori.zsh-theme
+
+!system
+!system/.alias
+!system/.env
+!system/.zshrc
+
+!bin
+!bin/qwe.sh
