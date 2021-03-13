@@ -16,3 +16,6 @@
 
 !bin
 !bin/qwe.sh
+
+!deployDotfiles.sh
+!installPrereqs.sh
