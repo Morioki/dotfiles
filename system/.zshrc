@@ -101,8 +101,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source ~/.alias
-<<<<<<< HEAD
 source ~/.custom
 
-=======
->>>>>>> 6ce502d7d9331facf3b1f0c770f0621a2c1af90a
