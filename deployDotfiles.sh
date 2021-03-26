@@ -14,6 +14,7 @@ cp /usr/local/bin/qwe.sh /usr/local/bin/qwe.sh.predotfile 2>/dev/null
 # Link Dotfiles
 cp ./system/.zshrc ~/.zshrc
 cp ./system/.alias ~/.alias
+cp ./system/.custom ~/.custom
 cp ./theme/mori.zsh-theme "$ZSH/custom/themes/mori.zsh-theme"
 sudo ln -sfn ./bin/qwe.sh /usr/local/bin/qwe.sh
 

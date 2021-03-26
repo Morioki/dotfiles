@@ -11,6 +11,7 @@
 
 !system
 !system/.alias
+!system/.custom
 !system/.env
 !system/.zshrc
 
