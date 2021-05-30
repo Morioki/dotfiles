@@ -8,6 +8,7 @@
 
 !theme
 !theme/mori.zsh-theme
+!theme/dir_colors
 
 !system
 !system/.alias

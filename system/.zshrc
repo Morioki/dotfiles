@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.alias
 source ~/.custom
 
+test -r ~/.dir_colors && eval $(dircolors ~/.dir_colors)
