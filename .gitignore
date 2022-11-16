@@ -21,3 +21,6 @@
 
 !deployDotfiles.sh
 !installPrereqs.sh
+
+# Oh My Posh config
+!.morioki.omp.json
