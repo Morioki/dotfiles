@@ -19,4 +19,4 @@ sudo ln -fn ./bin/qwe.sh /usr/local/bin/qwe.sh
 
 chsh -s /bin/zsh
 
-echo 'Please run Compinstall and then Restart your shell to use new dotfiles'
+echo 'Please run compinstall and then Restart your shell to use new dotfiles'
