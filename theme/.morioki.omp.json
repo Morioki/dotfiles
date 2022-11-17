@@ -79,7 +79,7 @@
             "display_mode": "context"
           },
           "style": "plain",
-          "template": "<#ffffff>via</> \uf820{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
+          "template": "<#ffffff>via</> \uf820{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}{{ end }}",
           "type": "python"
         }
       ],
