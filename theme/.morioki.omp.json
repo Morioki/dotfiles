@@ -25,7 +25,7 @@
             "fetch_status": true
           },
           "style": "plain",
-          "template": "<#ffffff>on</> {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
+          "template": "<#ffffff>on</> {{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }} ",
           "type": "git"
         },
         {
@@ -79,8 +79,17 @@
             "display_mode": "context"
           },
           "style": "plain",
-          "template": "<#ffffff>via</> \uf820{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }} {{ if .Venv }}{{ .Venv }}{{ end }}{{ end }}",
+          "template": "<#ffffff>via</> \uf820{{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
           "type": "python"
+        },
+        {
+          "type": "dotnet",
+          "style": "plain",
+          "foreground": "#663399",
+          "properties": {
+            "display_mode": "files"
+          },
+          "template": "<#ffffff>via</> {{ if .Unsupported }}\uf071{{ else }}.net{{ .Full }}{{ end }}"
         }
       ],
       "type": "prompt"
