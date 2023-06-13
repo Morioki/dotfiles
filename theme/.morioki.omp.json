@@ -5,13 +5,13 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#E06C75",
+          "foreground": "#FF6E6E",
           "style": "plain",
           "template": "root <#ffffff>in</> ",
           "type": "root"
         },
         {
-          "foreground": "#55B9C4",
+          "foreground": "#8BE9FD",
           "properties": {
             "style": "folder"
           },
@@ -20,7 +20,7 @@
           "type": "path"
         },
         {
-          "foreground": "#C678DD",
+          "foreground": "#BD93F9",
           "properties": {
             "fetch_status": true
           },
@@ -38,7 +38,7 @@
           }
         },
         {
-          "foreground": "#C94A16",
+          "foreground": "#FF5555",
           "style": "plain",
           "template": "x ",
           "type": "exit"
@@ -99,7 +99,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#63F08C",
+          "foreground": "#69FF94",
           "style": "plain",
           "template": "\u279c ",
           "type": "text"
